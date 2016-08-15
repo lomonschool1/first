@@ -6,10 +6,10 @@ def f(x):
 
 drawman_scale(20)
 
-x=-5.0
+x=-10.0
 to_point(x,f(x))
 pen_down()
-while x<=5:
+while x<=10:
     to_point(x,f(x))
     x+=0.1
 pen_up()

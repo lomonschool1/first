@@ -1,6 +1,6 @@
 from turtle import Turtle
 
-default_scale=10
+default_scale=20
 
 def init_drawman():
     global t, x_current, y_current,drawman_scale
